@@ -7,7 +7,6 @@ import Router = require("./src/components/router/Router.js");
 declare module 'hyper-express'{
 	export const Server: Server	
     export const Router: Router
-    export const compressors
 }
 
 
